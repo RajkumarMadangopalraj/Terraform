@@ -13,6 +13,7 @@ resource "google_compute_firewall" "vpc_network" {
   allow {
     protocol = "tcp"
     ports    = ["22"]
+    ports    = ["6443"]
   }
 
 #  source_tags = ["sshallow"]

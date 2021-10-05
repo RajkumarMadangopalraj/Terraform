@@ -1,7 +1,7 @@
 provider "google" {
-  credentials = file("/Path/to/your/credentials/path/<filename>.json")
+  credentials = file("/Users/rajkumar/Desktop/Mystuffs/Terraform/Key/kubernetes-practise-326615-a00f95561a30.json")
 
-  project = "YOURPROJECTNAME"
+  project = "kubernetes-practise-326615"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
