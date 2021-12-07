@@ -1,0 +1,1 @@
+Using this terraform code you can create an EC2 instances in your AWS infrastructure.
